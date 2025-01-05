@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/fav-icon-logo.png" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Palak Khan • Developer</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav--logo"> Palak</a>
+        <div class="nav--menu" id="nav-menu">
+          <ul class="nav--list grid">
+            <li class="nav--item">
+              <a href="#home" class="nav--link active-link">
+                <i class="ri-home-5-line"></i> About
+              </a>
+            </li>
+            <li class="nav--item">
+              <a href="#projects" class="nav--link">
+                <i class="ri-image-line"></i> Work
+              </a>
+            </li>
+           
+
+            <li class="nav--item">
+              <a href="#contact" class="nav--link">
+                <i class="ri-chat-3-line"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <!-- Close-button -->
+          <div class="nav--close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav--buttons">
+          <!-- Theme change button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!-- Toggle button -->
+          <div class="nav--toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home--container container grid section--border">
+          <div class="home--data grid">
+            <h1 class="home--title">
+              Hi!<br />
+              I’m <span style="color: #028ea0">Palak Khan </span> <br />
+              <!-- Frontend Developer -->
+            </h1>
+            <div class="home--blob grid">
+              <div class="home--prefil">
+                <img src="assets/my-prefil.png" alt="" />
+              </div>
+              <img
+                src="assets/shape-wawes.svg"
+                alt=""
+                class="home--shape-wawes"
+              />
+              <img
+                src="assets/shape-circle.svg"
+                alt=""
+                class="home--shape-circle"
+              />
+            </div>
+
+            <ul class="home--social">
+              <a
+                href="https://www.linkedin.com/in/palak-khan-84516627a/"
+                target="_blank"
+                class="home--social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+              <a
+                href="https://github.com/palak-khan"
+                target="_blank"
+                class="home--social-link"
+              >
+                <i class="ri-github-line"></i>
+              </a>
+              <a
+                href="https://x.com/PalakKhan64212"
+                target="_blank"
+                class="home--social-link"
+              >
+                <i class="ri-twitter-line"></i>
+              </a>
+            </ul>
+          </div>
+          <!--==================== HOME info 1 ====================-->
+          <div class="home--info">
+            <div>
+              <h3 class="home--info-title">ABOUT ME</h3>
+              <p class="home--info-description">
+                I'm, a Frontend Developer with a passion for designing
+                beautiful web interfaces.I strive to create visually stunning
+                and user-friendly digital experiences.
+              </p>
+            </div>
+
+            
+            <div>
+              <h3 class="home--info-title">MY RESUME</h3>
+              <a href="" class="home--info-description">Download ⬇️</a>
+            </div>
+          </div>
+          <!--==================== HOME info 2 ====================-->
+          <div class="home--info">
+            <div>
+              <p class="home--info-number">Coding globally from India.</p>
+            </div>
+            <div>
+              <h3 class="home--info-title">Available for freelance work</h3>
+              <p class="home--info-number">Hire me</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section--title">
+          Crafted with <span style="color: #028ea0"> love.</span>
+        </h2>
+        <span class="section--subtitle">
+          These are few of my recent works
+        </span>
+        <div class="container section--border">
+          <div class="projects--container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== PROJECTS Img ====================-->
+              <div class="projects--content swiper-slide">
+                <img src="projects-video/nft.png" class="projects--video" />
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">nft.io</h1>
+                  <a
+                    href="https://palak-khan.github.io/nft.io-landing-page/"
+                    target="_blank"
+                    class="projects--button"
+                    >Live Demo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECTS 1 ====================-->
+              <div class="projects--content swiper-slide">
+                <video
+                  src="projects-video/architecture.mp4"
+                  muted
+                  loop
+                  autoplay
+                  class="projects--video"
+                ></video>
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">Architecture</h1>
+                  <a
+                    href="https://palak-khan.github.io/architecture-website/"
+                    target="_blank"
+                    class="projects--button"
+                    >Live Demo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PROJECTS 2 ====================-->
+
+              <div class="projects--content swiper-slide">
+                <video
+                  src="projects-video/christmas-website.mp4"
+                  muted
+                  class="projects--video videos"
+                ></video>
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">Christmas</h1>
+                  <a
+                    href="https://palak-khan.github.io/Christmas-website/"
+                    target="_blank"
+                    class="projects--button"
+                    >Live Demo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PROJECTS 3 ====================-->
+              <div class="projects--content swiper-slide">
+                <video
+                  src="projects-video/Watches-swiper.mp4"
+                  muted
+                  loop
+                  autoplay
+                  class="projects--video"
+                ></video>
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">Watches</h1>
+                  <a
+                    href="https://palak-khan.github.io/watches/"
+                    target="_blank"
+                    class="projects--button"
+                    >Live Demo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECTS 4 ====================-->
+              <div class="projects--content swiper-slide">
+                <video
+                  src="projects-video/e-Book-website.mp4"
+                  muted
+                  class="projects--video videos"
+                ></video>
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">E Books</h1>
+                  <a
+                    href="https://palak-khan.github.io/E-Book-Website/"
+                    target="_blank"
+                    class="projects--button"
+                    >Live Demo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECTS 5 ====================-->
+              <div class="projects--content swiper-slide">
+                <video
+                  src="projects-video/error-2-port.mp4"
+                  muted
+                  autoplay
+                  loop
+                  class="projects--video"
+                ></video>
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">404</h1>
+                  <a
+                    href="https://palak-khan.github.io/my-404-page/"
+                    target="_blank"
+                    class="projects--button"
+                    >Live Demo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PROJECTS 6 ====================-->
+              <div class="projects--content swiper-slide">
+                <video
+                  src="projects-video/responsive-cactus-website.mp4"
+                  muted
+                  class="projects--video videos"
+                ></video>
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">Cactus</h1>
+                  <a
+                    href="https://palak-khan.github.io/cactus-website/"
+                    target="_blank"
+                    class="projects--button"
+                    >Live Demo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECTS 7 ====================-->
+              <div class="projects--content swiper-slide">
+                <video
+                  src="projects-video/abhishek-jha-portfolio.mp4"
+                  muted
+                  class="projects--video videos"
+                ></video>
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">Abhishek Jha Portfolio Clone</h1>
+                  <a
+                    href="https://github.com/palak-khan"
+                    target="_blank"
+                    class="projects--button"
+                    >Git Repo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECTS 8 ====================-->
+              <div class="projects--content swiper-slide">
+                <video
+                  src="projects-video/colors-combination.mp4"
+                  muted
+                  class="projects--video videos"
+                ></video>
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">Colors Combination Clone</h1>
+                  <a
+                    href="https://github.com/palak-khan"
+                    target="_blank"
+                    class="projects--button"
+                    >Git Repo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PROJECTS 9 ====================-->
+              <div class="projects--content swiper-slide">
+                <video
+                  src="projects-video/New York City.mp4"
+                  muted
+                  class="projects--video videos"
+                ></video>
+                <div>
+                  <!-- <span class="projects--subtitle"> </span> -->
+                  <h1 class="projects--title">New York City Clone</h1>
+                  <a
+                    href="https://github.com/palak-khan"
+                    target="_blank"
+                    class="projects--button"
+                    >Git Repo
+                    <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- If we need navigation buttons swiper arrow -->
+
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+    
+  
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="contact">
+      <!--==================== CONTACT ====================-->
+
+      <div class="footer--container container">
+        <h2 class="section--title footer--title">
+          Let’s <span style="color: #028ea0">Rock</span> Together
+        </h2>
+        <p>Get in touch</p>
+        <ul class="footer--list">
+          <li>
+            <a href="#home" class="footer--link">Home</a>
+          </li>
+          <li>
+            <a href="#skills" class="footer--link">Skills</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer--link">Projects</a>
+          </li>
+        </ul>
+        <ul class="footer--social">
+          <a
+            href="https://www.linkedin.com/in/palak-khan-84516627a/"
+            class="footer--social-link"
+          >
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+          <a href="https://github.com/palak-khan" class="footer--social-link">
+            <i class="ri-github-line"></i>
+          </a>
+          <a href="https://x.com/PalakKhan64212" class="footer--social-link">
+            <i class="ri-twitter-line"></i>
+          </a>
+        </ul>
+        <span class="footer--copy"> created with ❤️ by Smiling Dev</span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+  
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+  </body>
+</html>
